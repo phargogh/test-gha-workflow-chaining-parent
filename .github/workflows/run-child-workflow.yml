@@ -10,7 +10,7 @@ jobs:
   doit:
     runs-on: ubuntu-latest
     steps:
-      - uses: phargogh/test-gha-workflow-chaining-child/.github/workflows/child-workflow.yml
+      - uses: phargogh/test-gha-workflow-chaining-child/.github/workflows/child-workflow.yml@main
         with:
           some_parameter: "this is a test"
 
