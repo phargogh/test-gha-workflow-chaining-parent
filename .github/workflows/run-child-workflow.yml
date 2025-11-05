@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: phargogh/test-gha-workflow-chaining-child/.github/workflows/child-workflow.yml
-      - with:
+        with:
           some_parameter: "this is a test"
 
 
