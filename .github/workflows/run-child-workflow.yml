@@ -8,7 +8,7 @@ on:
 
 jobs:
   doit:
-    - uses: phargogh/test-gha-workflow-chaining-child/.github/workflows/child-workflow.yml@main
+    uses: phargogh/test-gha-workflow-chaining-child/.github/workflows/child-workflow.yml@main
 
 #  doit:
 #    runs-on: ubuntu-latest
